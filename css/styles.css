@@ -339,15 +339,9 @@ height: 380px;
   list-style: none;
 }
 
-.header {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-}
 
-.header-nav {
+
+.header {
   box-sizing: border-box;
   position: absolute;
   width: 1440px;
