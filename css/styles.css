@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --second-pege-background:#2e2f42;
   --first-text-color: #2e2f42;
