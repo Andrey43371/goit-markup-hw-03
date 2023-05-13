@@ -331,18 +331,10 @@ height: 380px;
 
 /* ======================Portfolio======================== */
 
-.container {
-  width: 1440px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .list {
   list-style: none;
 }
-
 
 
 .header {
@@ -368,7 +360,7 @@ height: 380px;
 .header-nav {
  display: flex;
  align-items: center;
- 
+
 }
 
 .header-logo {
