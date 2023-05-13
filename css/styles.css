@@ -422,6 +422,7 @@ img {
 }
 
 .menu-studio {
+   padding: 24px 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -432,7 +433,7 @@ img {
   flex: none;
   order: 0;
   flex-grow: 0;
-   padding: 24px 0;
+  
 }
 
 .menu-portfolio {
