@@ -480,6 +480,11 @@ img {
 }
 /*contacts */
 
+.list {
+  display: flex;
+  gap: 40px;
+}
+
 .mail {
   position: absolute;
   width: 153px;
