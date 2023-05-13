@@ -28,12 +28,6 @@ img {
   display: block ;
 }
 
-.mainpage {
-  width: 1440px;
-  height: 2592px;
-  background: #ffffff;
-}
-
 .mail {
   position: absolute;
   width: 153px;
