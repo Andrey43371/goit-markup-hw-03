@@ -436,38 +436,6 @@ img {
   
 }
 
-.menu-portfolio {
-  width: 66px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-   padding: 24px 0;
-}
-
-.menu-contacts {
-  width: 67px;
-  height: 24px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--first-text-color);
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-   padding: 24px 0;
-}
-
 .menu, .link:hover,.mail:hover,
 .menu, .link:focus,.mail:focus,
  .address {
