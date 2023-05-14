@@ -448,6 +448,11 @@ img {
 }
 /*contacts */
 
+.cart {
+  display: flex;
+  gap: 40px;
+}
+
 .mail {
     display: flex;
   position: absolute;
