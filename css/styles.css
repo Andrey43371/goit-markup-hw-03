@@ -65,6 +65,7 @@ img {
 /* section 1 */
 
 .heroimage {
+  padding: 188px 0;
   position: absolute;
   width: 1440px;
   height: 600px;
@@ -74,6 +75,7 @@ img {
 }
 
 .caption {
+  max-width: 496px;
   position: absolute;
   width: 496px;
   height: 120px;
@@ -102,7 +104,12 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
+  display: block;
+  min-width: 169px;
+   height: 56px ;
+   border: none;
+   cursor: pointer;
+
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;  
