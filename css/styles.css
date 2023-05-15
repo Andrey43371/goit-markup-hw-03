@@ -64,10 +64,6 @@ img {
 
 /* section 1 */
 
-.sectionblok {
-  padding: 188px 0;
-}
-
 .heroimage {
   padding: 188px 0;
   position: absolute;
@@ -126,6 +122,9 @@ img {
 }
 
 /* section 2 */
+.sectionblok {
+ padding: 120px 0
+}
 
 .featurea {
   display: flex;
