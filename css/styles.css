@@ -125,6 +125,10 @@ img {
 .sectionblok {
  padding: 120px 0
 }
+.blok {
+  display: flex;
+  gap: 24px;
+}
 
 .featurea {
   display: flex;
