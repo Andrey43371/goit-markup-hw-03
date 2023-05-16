@@ -484,6 +484,7 @@ img {
 .filters-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 
@@ -498,8 +499,6 @@ img {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
