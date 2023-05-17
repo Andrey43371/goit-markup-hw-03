@@ -506,12 +506,27 @@ img {
 /* row1 */
 
 .items-row {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+
   position: absolute;
   top: 260px;
   left: 110px;
   width: 1200px;
 }
+.containerrow {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+  margin-bottom: 8px;
+
+}
+
 .items-row > li {
+  width: calc((100% - 48px) / 3);
+
   position: relative;
   display: inline-block;
   background: #ffffff;
