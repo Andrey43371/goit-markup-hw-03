@@ -308,9 +308,7 @@ img {
 .list {
   list-style: none;
 }
-img {
-  display: block;
-}
+
 
 .header {
   box-sizing: border-box;
