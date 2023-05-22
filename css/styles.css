@@ -326,7 +326,8 @@ padding: 0px;
   padding: 24px 0 ;
 }
 .link-footer {
- display: inline-block;
+  display: flex;
+ /* display: inline-block; */
 }
 
 .menu {
