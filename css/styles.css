@@ -325,10 +325,12 @@ padding: 0px;
 .link {
   padding: 24px 0 ;
 }
+.link-footer {
+  display: block;
+}
 
 .menu {
   display: flex;
-  
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
