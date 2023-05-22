@@ -43,7 +43,6 @@ img {
 .caption {
   position: absolute;
   left: 472px;
-  top: 260px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -112,15 +111,11 @@ height: 104px;
 
 /* section 3 */
 .sectionservice {
+  
   padding-bottom: 120px; 
 }
 
 .headlinesection {
-  position: absolute;
-  left: 559px;
-  top: 1016px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,22 +126,24 @@ height: 104px;
   margin-bottom: 72px;
 }
 
-.service{
+.service {
   display: flex;
-  flex-wrap: wrap;
+flex-wrap: wrap;
    gap: 24px;
+  
 }
 
 .icon {
   padding: 0px;
-  position: absolute;
-  top: 1128px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 
 /* section 4 */
 
 .sectionfour {
-  padding: 120px 0;
+  padding: 60px 0;
   background-color: #f4f4fd;
   position: absolute;
   width: 1440px;
@@ -157,9 +154,6 @@ height: 104px;
 
 .headlinesections {
   margin-bottom: 72px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -205,6 +199,14 @@ height: 104px;
 }
 
 /* footer */
+.box .container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
 .box {
   padding: 100px 0;
   position: absolute;
@@ -229,10 +231,6 @@ height: 104px;
 }
 
 .box-logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -240,15 +238,12 @@ height: 104px;
 }
 
 .boxdesc {
-   max-width: 264px ;
-  position: absolute;
   width: 264px;
   height: 72px;
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* ======================Portfolio======================== */
@@ -261,12 +256,8 @@ height: 104px;
 
 
 .header {
-  box-sizing: border-box;
-  position: absolute;
   width: 1440px;
   height: 72px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -283,8 +274,10 @@ height: 104px;
   padding: 0 15px;
 }
 .header-nav {
-  display: flex;
-  align-items: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
 }
 
 .header-logo {
@@ -375,10 +368,7 @@ height: 104px;
 
 .mail-tel {
   display: flex;
-
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
+  justify-content: flex-end;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
@@ -398,11 +388,6 @@ height: 104px;
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
-  position: absolute;
-  width: 586px;
-  height: 48px;
-  left: 427px;
-  top: 168px;
 }
 
 .filters-btn:hover,
@@ -433,13 +418,10 @@ height: 104px;
 .items-row {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px 24px;
 
-  position: absolute;
-  top: 260px;
-  left: 110px;
-  width: 1200px;
+
+
 }
 .containerrow {
   padding: 32px 16px;
@@ -475,8 +457,6 @@ height: 104px;
   padding: 0px 16px;
 }
 .items-row-lead {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
@@ -486,20 +466,12 @@ height: 104px;
 /* footer */
 
 .footerdesc {
-  position: absolute;
   width: 1440px;
   height: 312px;
-  left: 0px;
-  top: 1764px;
   background: var(--second-pege-background);
 }
 
 .footer-link {
-  padding: 0px;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -513,13 +485,6 @@ height: 104px;
 }
 
 .footer-logo-studio {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -531,12 +496,8 @@ height: 104px;
 }
 
 .desc {
-  position: absolute;
   width: 264px;
   height: 72px;
-  left: 156px;
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
