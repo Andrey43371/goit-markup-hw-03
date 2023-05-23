@@ -69,7 +69,7 @@ margin: auto;
   color: #ffffff;
   margin: auto;
   display: block;
-  margin-top: 100px;
+  margin-top: 48px;
 }
 
 .centr {
@@ -101,8 +101,6 @@ margin: auto;
 .blok {
   display: flex;
   gap: 24px;
-  width: 1128px;
-height: 104px;
 }
 
 .feature {
@@ -116,8 +114,6 @@ height: 104px;
 }
 
 .item {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
@@ -187,10 +183,6 @@ align-items: flex-start;
 }
 
 .title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
@@ -199,8 +191,6 @@ align-items: flex-start;
 }
 
 .itemourteam {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
@@ -217,7 +207,6 @@ align-items: flex-start;
 
 .box {
   padding: 100px 0;
-  height: 312px;
   background: var(--second-pege-background);
 }
 
@@ -242,8 +231,6 @@ align-items: flex-start;
 }
 
 .boxdesc {
-  width: 264px;
-  height: 72px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
@@ -271,11 +258,11 @@ align-items: flex-start;
 }
 
 .container {
-  
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .header-nav {
 display: flex;
 flex-direction: row;
@@ -325,7 +312,6 @@ padding: 0px;
 }
 .link-footer {
   display: flex;
- /* display: inline-block; */
 }
 
 .menu {
@@ -361,9 +347,6 @@ padding: 0px;
   color: #404bbf;
 }
 
-/* .address ul li:nth-child(2) > a {
-  left: 1133px;
-} */
 /*contacts */
 
 .address{
@@ -406,12 +389,8 @@ padding: 0px;
   border: 1px solid transparent;
 }
 
-
 .filters-btn {
   padding: 12px 24px;
-  justify-content: center;
-  width: 116px;
-  height: 48px;
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -428,9 +407,6 @@ padding: 0px;
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-
-
-
 }
 .containerrow {
   padding: 32px 16px;
@@ -442,21 +418,6 @@ padding: 0px;
   width: calc((100% - 48px) / 3);
 }
 
-/* .items-row > li {
-  position: relative;
-  display: inline-block;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
-  margin: 25px 10px;
-} */
-
-/* .items-row > li a img {
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
-  mix-blend-mode: normal;
-} */
 .items-row-caption {
   margin-bottom: 8px;
   font-weight: 500;
