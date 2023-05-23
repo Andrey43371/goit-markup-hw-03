@@ -123,6 +123,7 @@ margin: auto;
 }
 
 .headlinesection {
+  
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -147,12 +148,13 @@ align-items: flex-start;
 /* section 4 */
 
 .sectionfour {
-  padding: 104px 0;
+padding: 120px 0;
   background-color: #f4f4fd;
   height: 732px;
 }
 
 .headlinesections {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -176,11 +178,12 @@ align-items: flex-start;
   padding: 32px 16px ;
 }
 
-.title {
+.title { 
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--first-text-color);
+  margin-bottom: 8px;
 }
 
 .itemourteam {
@@ -214,6 +217,7 @@ align-items: flex-start;
   text-transform: uppercase;
   color: var(--third-text-color);
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .box-logo-studio {
