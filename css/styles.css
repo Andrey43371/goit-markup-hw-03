@@ -111,7 +111,7 @@ margin: auto;
   padding: 0px;
 }
 .featuretitle {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .item {
   line-height: 1.5;
@@ -125,6 +125,7 @@ margin: auto;
 }
 
 .headlinesection {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -155,7 +156,7 @@ padding: 120px 0;
 }
 
 .headlinesections {
-
+margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -180,6 +181,7 @@ padding: 120px 0;
 }
 
 .title { 
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
