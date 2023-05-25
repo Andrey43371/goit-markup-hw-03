@@ -15,23 +15,19 @@ body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
   color: #434455;
+}
+p, h1, h2, h3, h4, h5, h6, ul, a, img {
   margin: 0;
-}
-
-.list-style {
-  list-style-type: none;
-}
-
-.link {
+  padding: 0;
+  list-style: none;
   text-decoration: none;
-  color: var(--first-text-color);
+  display: block;
 }
+
+
 
 /* =======Main Page======== */
 
-img {
-  display: block;
-}
 
 /* section 1 */
 
@@ -111,7 +107,7 @@ margin: auto;
   padding: 0px;
 }
 .featuretitle {
-  margin-bottom: 8px;
+
 }
 .item {
   line-height: 1.5;
@@ -214,7 +210,7 @@ margin-bottom: 72px;
   text-transform: uppercase;
   color: var(--third-text-color);
   text-decoration: none;
-  margin-bottom: 16px;
+
 }
 
 .box-logo-studio {
@@ -330,8 +326,17 @@ padding: 0px;
   order: 0;
   flex-grow: 0;
 }
-
-.menu,
+.menu, .link:hover,.mail:hover,
+.menu, .link:focus,.mail:focus,
+ .address {
+  font-style: normal;
+  color:#404bbf ;
+}
+/* .menu .menu-studio .cart .mail-tel:hover,
+.menu .menu-studio .cart .mail-tel:focus {
+  color: #404bbf;
+} */
+/* .menu,
 .link:hover,
 .mail:hover,
 .menu,
@@ -340,11 +345,12 @@ padding: 0px;
 .address {
   font-style: normal;
   color: #404bbf;
-}
+} */
 
 /*contacts */
 
 .address{
+  font-style: normal;
   margin-left: auto;
 }
 .cart {
