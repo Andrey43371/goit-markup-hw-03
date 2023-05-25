@@ -73,7 +73,7 @@ margin: auto;
 }
 
 .button:hover,
-:focus {
+.button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
@@ -326,17 +326,8 @@ padding: 0px;
   order: 0;
   flex-grow: 0;
 }
-.menu, .link:hover,.mail:hover,
-.menu, .link:focus,.mail:focus,
- .address {
-  font-style: normal;
-  color:#404bbf ;
-}
-/* .menu .menu-studio .cart .mail-tel:hover,
-.menu .menu-studio .cart .mail-tel:focus {
-  color: #404bbf;
-} */
-/* .menu,
+
+.menu,
 .link:hover,
 .mail:hover,
 .menu,
@@ -345,7 +336,7 @@ padding: 0px;
 .address {
   font-style: normal;
   color: #404bbf;
-} */
+} 
 
 /*contacts */
 
