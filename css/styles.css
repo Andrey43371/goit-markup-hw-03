@@ -345,6 +345,7 @@ padding: 0px;
   display: flex;
   justify-content: space-around;
   gap: 40px;
+  align-items: center;
 }
 
 .mail-tel {
