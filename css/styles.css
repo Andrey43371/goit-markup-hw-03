@@ -314,7 +314,6 @@ padding: 0px;
 }
 
 .menu-studio {
-  padding: 24px 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -357,7 +356,6 @@ padding: 0px;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   text-decoration: none;
-  margin-right: 40px;
 }
 
 
