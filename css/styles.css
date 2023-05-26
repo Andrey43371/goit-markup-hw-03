@@ -298,9 +298,7 @@ padding: 0px;
   order: 1;
   flex-grow: 0;
 }
-.link {
-  padding: 24px 0 ;
-}
+
 .link-footer {
   display: flex;
 }
