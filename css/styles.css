@@ -229,11 +229,11 @@ margin-bottom: 16px;
 
 /* ======================Portfolio======================== */
 
-.list {
+/* .list {
   list-style: none;
    margin: 0;
     padding: 0;
-}
+} */
 
 
 .header {
@@ -352,9 +352,7 @@ padding: 0px;
   letter-spacing: 0.02em;
 
 }
-.adress-link {
-   padding: 24px 0;
-}
+
 
 /* btn */
 
