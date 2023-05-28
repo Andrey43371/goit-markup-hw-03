@@ -298,9 +298,8 @@ padding: 0px;
   order: 1;
   flex-grow: 0;
 }
-
-.link-footer {
-  display: flex;
+.link {
+ color: var(--first-text-color);
 }
 
 .menu {
